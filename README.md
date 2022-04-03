@@ -16,3 +16,11 @@ In this work we present a soft continuum manipulator with two actuated DOFs: <br
   style="display: inline-block; margin: 0 auto; width: 400px">
 </p>
 To characterize the behaviour of the robot, both angles are needed to be measured.
+
+---
+
+## Measurement Method
+### 1. Bending Angle (&theta;)
+### 2. Bending Plane Angle (&gamme;)
+
+
