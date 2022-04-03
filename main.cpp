@@ -49,7 +49,7 @@ int main(){
     uint8_t i = 0;
     String source    = "img/source/",
            result    = "img/result/",
-           filename = "P070",
+           filename  = "P070",
            filetype  = ".JPG",
            path      = source+filename+filetype;   
 
