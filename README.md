@@ -1,4 +1,4 @@
-# Soft Robot's Angle Measurement Program with OpenCV
+# Soft Robot Angle Measurement Program with OpenCV
 ***
 This repository is associated with the research collaboration program between Imperial College London and Institut Teknologi Bandung in the field of `affordable medical devices` based on `soft robotics`.
 ***
