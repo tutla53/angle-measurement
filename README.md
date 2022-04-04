@@ -24,4 +24,16 @@ In the medical application, the bending angle <i>(&theta;)</i> and the bending p
 ### 1. Bending Angle (<i>&theta;</i>)
 ### 2. Rotation of Bending Plane Angle (<i>&gamma;</i>)
 
+## Implementation on C++
+
+## Result
+<p align="center">
+<img
+  src="https://github.com/tutla53/angle-measurement/blob/master/img/result/P070_final.JPG"
+  alt="Measurement Result"
+  title="Measurement Result"
+  style="display: inline-block; margin: 0 auto; width: 400px">
+</p>
+
+
 
