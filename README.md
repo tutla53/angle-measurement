@@ -16,11 +16,7 @@ In this work we present a soft continuum manipulator with two actuated DOFs: <br
   style="display: inline-block; margin: 0 auto; width: 400px">
 </p>
 
-Typically, bending angle (<i>&theta;</i>) and rotation of bending plane angle (<i>&gamma;</i>) are measured by attaching a sensor 
-(e.g. [electromagnetic tracking](https://www.ndigital.com/technology/em-overview/))
-at the tip of the continuum robot, usually called as proprioceptive sensor. However, the sensor installation is challenging because of the limited area of the tip and may affect the overall stiffness.
-And also, the sensor is relatively expensive, with costs ranging from $5000 - $150,000 <sup> [[1]](https://doi.org/10.1016/B978-0-12-381496-8.00001-9) </sup>.
-Therefore, the use of a non-contact measurement type (e.g. camera) will resolve the problem of the proprioceptive sensor.
+In the medical application, the bending angle <i>(&theta;)</i> and the bending plane angle <i>(&gamma;)</i> can be measured by attaching a sensor (e.g. [electromagnetic tracking](https://www.ndigital.com/technology/em-overview/)) to the tip of the robot. It has good capabilities to localize and visualize the instrument as it's navigated through the various anatomical tracts. However, the sensor is relatively expensive in the early stage of development, with estimated costs ranging from $5000 - $150,000 <sup> [[1]](https://doi.org/10.1016/B978-0-12-381496-8.00001-9) </sup>, especially for lower and middle-income countries (LMIC). Therefore, this project will present affordable method to measure the angles of the robot by using the camera and `OpenCV`.
 
 ---
 
