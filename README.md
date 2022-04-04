@@ -60,12 +60,6 @@ In the medical application, the bending angle <i>(&theta;)</i> and the bending p
   Fig. 2. Measurement setup with GoPro Hero 5: (a) concept design and (b) prototype.
  </p>
 
-
-
----
-
-## Implementation on C++
-
 ---
 
 ## Result
@@ -77,6 +71,11 @@ In the medical application, the bending angle <i>(&theta;)</i> and the bending p
   style="display: inline-block; margin: 0 auto; width: 500px"> <br>
   Fig. 3. Measurement result of bending angle <i>(&theta;)</i>.
 </p>
+
+---
+
+## Future Works
+
 
 ### Reference
 [^1]: A. Menache, “1 - Motion Capture Primer,” in Understanding Motion Capture for Computer Animation (Second Edition), Second Edition., A. Menache, Ed. Boston: Morgan Kaufmann, 2011, pp. 1–46. doi: https://doi.org/10.1016/B978-0-12-381496-8.00001-9.
