@@ -57,7 +57,7 @@ In the medical application, the bending angle <i>(&theta;)</i> and the bending p
   </table>
   
  <p align="center"> 
-  Fig. 2. Measurement setup with GoPro Hero 5: (a) the bending angle <i>(&theta;)</i> (b) the bending plane angle <i>(&gamma;)</i>
+  Fig. 2. Measurement setup with GoPro Hero 5: (a) the bending angle <i>(&theta;)</i> and (b) the bending plane angle <i>(&gamma;)</i>
  </p>
 
 
