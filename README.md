@@ -32,18 +32,18 @@ In the medical application, the bending angle <i>(&theta;)</i> and the bending p
   <tr>
     <th align="center">
       <img
+        src="https://github.com/tutla53/angle-measurement/blob/master/img/Measurement%20Setup%20Concept.jpeg"
+        alt="Measurement Setup - concept"
+        title="Measurement Setup - concept"
+        style="display: inline-block; margin: 0 auto; width: 375px">
+    </th>
+    <th align="center">
+      <img
         src="https://github.com/tutla53/angle-measurement/blob/master/img/Measurement%20Setup.jpeg"
         alt="Measurement Setup"
         title="Measurement Setup"
         style="display: inline-block; margin: 0 auto; width: 400px">
      </th>
-    <th align="center">
-      <img
-        src="https://github.com/tutla53/angle-measurement/blob/master/img/Measurement%20Setup%20Top.jpeg"
-        alt="Measurement Setup - Top"
-        title="Measurement Setup - Top"
-        style="display: inline-block; margin: 0 auto; width: 400px">
-    </th>
   </tr>
   <tr>
     <td align="center">
@@ -57,7 +57,7 @@ In the medical application, the bending angle <i>(&theta;)</i> and the bending p
   </table>
   
  <p align="center"> 
-  Fig. 2. Measurement setup with GoPro Hero 5: (a) the bending angle <i>(&theta;)</i> and (b) the bending plane angle <i>(&gamma;)</i>
+  Fig. 2. Measurement setup with GoPro Hero 5: (a) concept design and (b) prototype.
  </p>
 
 
