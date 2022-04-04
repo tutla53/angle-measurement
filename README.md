@@ -5,8 +5,8 @@ This repository is associated with the research collaboration program between Im
 
 ## Introduction
 In this work we present a soft continuum manipulator with two actuated DOFs: <br> 
-1. Bending on an arbitrary plane (<i>&theta;</i>).
-2. Rotation of the bending plane with respect to a fixed reference frame (<i>&gamma;</i>).
+1. Bending on an arbitrary plane <i>(&theta;)</i>.
+2. Rotation of the bending plane with respect to a fixed reference frame <i>(&gamma;)</i>.
 
 <p align="center">
 <img
