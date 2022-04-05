@@ -56,17 +56,17 @@ int main(){
     Point pt, pnt[6];
 
     image = imread(path,IMREAD_COLOR);
-    resize(image, img2, Size(X_size,Y_size), INTER_LINEAR);
 
-    if(!img2.data){
+    if(!image.data){
             printf("Could not open file\n");
             return -1;
     }
+    resize(image, img2, Size(X_size,Y_size), INTER_LINEAR);
 
     while(!end){
-        namedWindow("Image", WINDOW_NORMAL);
-        imshow("Image", img2);
-        setMouseCallback("Image",CallBackFunc, &pt);
+        namedWindow(filename+filetype, WINDOW_NORMAL);
+        imshow(filename+filetype, img2);
+        setMouseCallback(filename+filetype,CallBackFunc, &pt);
 
         if(mouse_event){
             if(i<6){
