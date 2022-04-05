@@ -10,7 +10,7 @@ In this work we present a soft continuum manipulator with two actuated DOFs: <br
 
 <p align="center">
 <img
-  src="https://github.com/tutla53/angle-measurement/blob/master/img/Robot_Two_DoF_2.jpg"
+  src="img/Robot_Two_DoF_2.jpg"
   alt="soft robot's angle"
   title="Soft Robot Measurement Setup"
   style="display: inline-block; margin: 0 auto; width: 400px"> <br>
@@ -32,14 +32,14 @@ In the medical application, the bending angle <i>(&theta;)</i> and the bending p
   <tr>
     <th align="center">
       <img
-        src="https://github.com/tutla53/angle-measurement/blob/master/img/Measurement%20Setup%20Concept.jpeg"
+        src="img/Measurement%20Setup%20Concept.jpeg"
         alt="Measurement Setup - concept"
         title="Measurement Setup - concept"
         style="display: inline-block; margin: 0 auto; width: 375px">
     </th>
     <th align="center">
       <img
-        src="https://github.com/tutla53/angle-measurement/blob/master/img/Measurement%20Setup.jpeg"
+        src="img/Measurement%20Setup.jpeg"
         alt="Measurement Setup"
         title="Measurement Setup"
         style="display: inline-block; margin: 0 auto; width: 400px">
@@ -65,7 +65,7 @@ In the medical application, the bending angle <i>(&theta;)</i> and the bending p
 ## Result
 <p align="center">
 <img
-  src="https://github.com/tutla53/angle-measurement/blob/master/img/result/P070_final.JPG"
+  src="img/result/P070_final.JPG"
   alt="Measurement Result"
   title="Measurement Result"
   style="display: inline-block; margin: 0 auto; width: 500px"> <br>
