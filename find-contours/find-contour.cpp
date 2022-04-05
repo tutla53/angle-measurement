@@ -8,7 +8,7 @@ using namespace cv;
 
 #define circle_width 3
 #define line_width   2
-#define size_scale   0.8
+#define size_scale   0.5
 #define X_size       1400 * size_scale
 #define Y_size       1050 * size_scale
 #define offset       700
@@ -43,7 +43,7 @@ void thresh_callback(int, void* ){
     drawing = Mat::zeros( canny_output.size(), CV_8UC3 );
     for( size_t i = 0; i< contours.size(); i++ ){
         Scalar color = Scalar( 255, 255, 255);
-        drawContours( drawing, contours, (int)i, color, 2, LINE_8, hierarchy, 0 );
+        drawContours( drawing, contours, (int)i, color, 1, LINE_8, hierarchy, 0 );
     }
     imshow( "Contours", drawing );
 }
@@ -106,6 +106,10 @@ int main(){
             /*Save the result*/
             status = imwrite(result+filename+"_contour"+filetype, drawing);
             printf("Image written to file-system : %d\n",status);
+            break;
+        }
+        else if (wait_char == 'q'){
+            destroyAllWindows;
             break;
         }
     }
