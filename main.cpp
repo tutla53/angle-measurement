@@ -58,16 +58,16 @@ int main(){
     image = imread(path,IMREAD_COLOR);
     resize(image, img2, Size(X_size,Y_size), INTER_LINEAR);
 
-    if(! image.data){
+    if(!img2.data){
             printf("Could not open file\n");
             return -1;
     }
 
     while(!end){
-        namedWindow("Image", cv::WINDOW_AUTOSIZE);
+        namedWindow("Image", WINDOW_NORMAL);
         imshow("Image", img2);
         setMouseCallback("Image",CallBackFunc, &pt);
-        
+
         if(mouse_event){
             if(i<6){
                 if(i == 0){
