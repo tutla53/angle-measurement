@@ -43,7 +43,7 @@ void thresh_callback(int, void* ){
     drawing = Mat::zeros( canny_output.size(), CV_8UC3 );
     for( size_t i = 0; i< contours.size(); i++ ){
         Scalar color = Scalar( 255, 255, 255);
-        drawContours( drawing, contours, (int)i, color, 2, LINE_8, hierarchy, 0 );
+        drawContours( drawing, contours, (int)i, color, 1, LINE_8, hierarchy, 0 );
     }
     imshow( "Contours", drawing );
 }
