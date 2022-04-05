@@ -72,6 +72,38 @@ In the medical application, the bending angle <i>(&theta;)</i> and the bending p
   Fig. 3. Measurement result of bending angle <i>(&theta;)</i>.
 </p>
 
+  <table align = "center">
+  <tr>
+    <th align="center">
+      <img
+        src="img/source/P070.JPG"
+        alt="Original Image"
+        title="Original Image"
+        style="display: inline-block; margin: 0 auto; width: 500px">
+    </th>
+    <th align="center">
+      <img
+        src="img/result/P070_contour.JPG"
+        alt="Detected Contour Image"
+        title="Detected Contour Image"
+        style="display: inline-block; margin: 0 auto; width: 500px">
+     </th>
+  </tr>
+  <tr>
+    <td align="center">
+      (a)
+    </td>
+    <td align="center">
+      (b)
+     </td>
+</tr>
+  
+  </table>
+  
+ <p align="center"> 
+  Fig. 4. Result from edge detector algorithm: (a) original image and (b) detected edge.
+ </p>
+
 ---
 
 ## Future Works
