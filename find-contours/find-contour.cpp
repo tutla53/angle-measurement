@@ -36,10 +36,12 @@ static void CannyThreshold(int, void*){
 
 void thresh_callback(int, void* ){
     Mat canny_output;
+
     Canny( src_gray, canny_output, lowThreshold, lowThreshold*imratio);
     vector<vector<Point> > contours;
     vector<Vec4i> hierarchy;
-    findContours( canny_output, contours, hierarchy, RETR_TREE, CHAIN_APPROX_SIMPLE );
+
+    findContours(canny_output, contours, hierarchy, RETR_TREE, CHAIN_APPROX_SIMPLE );
     drawing = Mat::zeros( canny_output.size(), CV_8UC3 );
     for( size_t i = 0; i< contours.size(); i++ ){
         Scalar color = Scalar( 255, 255, 255);
@@ -79,7 +81,7 @@ int main(){
     String source    = "../img/source/",
            result    = "../img/result/",
            filename  = "P070",
-           filetype  = ".JPG",
+           filetype  = ".png",
            path      = source+filename+filetype;   
 
     image = imread(path,IMREAD_COLOR);
@@ -88,6 +90,7 @@ int main(){
             printf("Could not open file\n");
             return -1;
     }
+    //src = image;
     resize(image, src, Size(X_size,Y_size), INTER_LINEAR);
 
     cvtColor(src, src_gray, COLOR_BGR2GRAY );
